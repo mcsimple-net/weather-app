@@ -1,6 +1,6 @@
 # Weather app
 
-[![It Remedy]()](https://itremedy.pro)
+[![It Remedy](https://img.shields.io/badge/IT%20Remedy-Weather-brightgreen)](https://itremedy.pro)
 
 <p align="center"><img src="assets/Weather-App-City.png" width=30% height=30% /></p>
 
@@ -20,10 +20,10 @@
 
 **Screenshot**
 
-<p align="center"><img src="assets/Weather-App-GPS.png" width=30% height=30% /></p>
+<p align="center"><img src="assets/Weather-App-GPS.png" width=40% height=40% /></p>
 
 **Libraries & Dependencies**
 - [Support libraries]: appcompat / recyclerview / constraintlayout
-- [Material Design 2]: MaterialCardView / MaterialButton / Bottom App Bars / ExtendedFloatingActionButton
+- [Material Design 2]: MaterialCardView / FloatingActionButton
 - Square [Retrofit] / [Okhttp] / [Logging-Interceptor]
 
