@@ -2,7 +2,7 @@
 
 [![It Remedy]()](https://itremedy.pro)
 
-<p align="center"><img src="assets/Weather-App-City.png" /></p>
+<p align="center"><img src="assets/Weather-App-City.png" width=30% height=30% /></p>
 
 **Requirements**
 - Android studio last version
@@ -20,7 +20,7 @@
 
 **Screenshot**
 
-<p align="center"><img src="assets/Weather-App-GPS.png" /></p>
+<p align="center"><img src="assets/Weather-App-GPS.png" width=30% height=30% /></p>
 
 **Libraries & Dependencies**
 - [Support libraries]: appcompat / recyclerview / constraintlayout
