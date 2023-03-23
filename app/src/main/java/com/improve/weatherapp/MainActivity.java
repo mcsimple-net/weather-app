@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         fab = findViewById(R.id.fab);
 
         fab.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, WeatherActivity.class);
+            Intent intent = new Intent(this, WeatherActivity.class);
             startActivity(intent);
 
 
@@ -112,13 +112,13 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<OpenWeatherMap> call, Response<OpenWeatherMap> response) {
 
                 city.setText(response.body().getName() + " , " + response.body().getSys().getCountry());
-                temperature.setText(String.valueOf(response.body().getMain().getTemp()) + " °C");
-                pressure.setText(String.valueOf(response.body().getMain().getPressure()) + " hPa");
-                wind.setText(String.valueOf(response.body().getWind().getSpeed()) + " m/s");
-                humidity.setText(String.valueOf(response.body().getMain().getHumidity()) + " %");
+                temperature.setText(response.body().getMain().getTemp() + " °C");
+                pressure.setText(response.body().getMain().getPressure() + " hPa");
+                wind.setText(response.body().getWind().getSpeed() + " m/s");
+                humidity.setText(response.body().getMain().getHumidity() + " %");
                 weatherCondition.setText(response.body().getWeather().get(0).getDescription());
-                maxTemperature.setText(String.valueOf(response.body().getMain().getTempMax()) + " °C");
-                minTemperature.setText(String.valueOf(response.body().getMain().getTempMin()) + " °C");
+                maxTemperature.setText(response.body().getMain().getTempMax() + " °C");
+                minTemperature.setText(response.body().getMain().getTempMin() + " °C");
 
                 String icon = response.body().getWeather().get(0).getIcon();
                 Picasso.get().load("https://openweathermap.org/img/wn/" + icon + "@2x.png").into(imageView);
