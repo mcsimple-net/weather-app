@@ -1,7 +1,7 @@
 # Weather app
 
 [![MCSimple](https://img.shields.io/badge/MCSimple-Weather_app-brightgreen?logo=MCSimple&link=https%3A%2F%2Fmcsimple.net
-)](https://itremedy.pro)
+)](https://mcsimple.net)
 
 <p align="center"><img src="assets/Weather-App-City.png" width=30% height=30% /></p>
 
