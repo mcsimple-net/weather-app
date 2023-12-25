@@ -1,6 +1,7 @@
 # Weather app
 
-[![It Remedy](https://img.shields.io/badge/IT%20Remedy-Weather-brightgreen)](https://itremedy.pro)
+[![MCSimple](https://img.shields.io/badge/MCSimple-Weather_app-brightgreen?logo=MCSimple&link=https%3A%2F%2Fmcsimple.net
+)](https://itremedy.pro)
 
 <p align="center"><img src="assets/Weather-App-City.png" width=30% height=30% /></p>
 
@@ -8,8 +9,8 @@
 - Android studio last version
 - JDK 8
 - Android SDK 31
-- Supports API Level +28
-- Material Components 1.5.0-alpha04
+- Supports API Level 28+
+- Material Components 1.9.0
 
 **Highlights**
 - Use [OpenWeatherMap] API
@@ -30,7 +31,7 @@
 
 # License
 
-    Copyright 2023 Vladimir Kvachevskii
+    Copyright 2023 Vladimir Kvachevski
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
